@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LENNy8PXej877BFYIK5F1Mg32qwc57fh/hgoiu03ax6IkvvtdyYVBKeEvwBUg05QQ0lCwUdAj6hdBcWTC5U0Aw==",
+  "success": true,
+  "projectFilePath": "D:\\Exercise_Illya\\Exercise_Illya\\AdPremiumService\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eLaptop\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eLaptop\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

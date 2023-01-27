@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AdPremium Pro</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+        <ul>
+            <div class="adsPremium">
+            </div>
+        </ul>
+        
+        <button class="btn-add-new">New +</button>
+      </main>
+  
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Create new AdPremium <br />
+        in just 1 second
+      </h2>
+      <form class="modal__form">
+        <label>Location Id</label>
+        <input class="modal_form--input--location" type="number" />
+        <label>Subcategory Id</label>
+        <input class="modal_form--input--subcategory" type="number" />
+        <label>Premium Start</label>
+        <input class="modal_form--input--premium--start" type="date" />
+        <label>Premium End</label>
+        <input class="modal_form--input--premium--end" type="date" />
+        <button class="btn">Create &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
